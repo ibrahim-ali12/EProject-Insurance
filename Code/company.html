@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Companies - Crown Drive Insurance</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="company.css">
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <link rel="icon" type="image/png" href="../Images/favicon-96x96.png" sizes="96x96" />
+</head>
+
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" data-aos="fade-down">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" data-aos="zoom-in" data-aos-delay="100">
+        <img src="../Images/logo.png" alt="Crown Drive Logo" width="40" class="me-2">
+        CROWN DRIVE INSURANCE
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html" data-aos="fade-down" data-aos-delay="200">Home</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="plans.html" data-aos="fade-down" data-aos-delay="300">Plans</a>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="company.html" data-aos="fade-down"
+              data-aos-delay="400">Companies</a></li>
+          <li class="nav-item"><a class="nav-link" href="vehicles.html" data-aos="fade-down"
+              data-aos-delay="500">Vehicles</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html" data-aos="fade-down" data-aos-delay="600">About</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contact.html" data-aos="fade-down"
+              data-aos-delay="700">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html" data-aos="fade-down" data-aos-delay="800">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section text-dark text-start p-5" data-aos="fade-down">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="display-4" data-aos="zoom-in" data-aos-delay="200">Our Partner Companies <i
+            class="fas fa-building"></i></h1>
+        <p class="lead" data-aos="fade-up" data-aos-delay="400">We partner with leading insurance companies to provide
+          you with the best coverage options</p>
+        <!-- Breadcrumbs -->
+        <nav aria-label="breadcrumb" data-aos="fade-up" data-aos-delay="600">
+          <ol class="breadcrumb mt-3">
+            <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+            <li class="breadcrumb-item active text-light" aria-current="page">Companies</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+  <!-- Companies Overview Section -->
+  <section class="companies-overview py-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="overview-item">
+            <div class="overview-icon">
+              <i class="fas fa-handshake"></i>
+            </div>
+            <h3>Trusted Partners</h3>
+            <p>We work with industry-leading insurance companies with proven track records</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="overview-item">
+            <div class="overview-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>Comprehensive Coverage</h3>
+            <p>Our partners offer a wide range of insurance plans for all vehicle types</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="overview-item">
+            <div class="overview-icon">
+              <i class="fas fa-headset"></i>
+            </div>
+            <h3>Excellent Support</h3>
+            <p>Get dedicated support from both Crown Drive and our partner companies</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Companies Section -->
+  <section class="companies-section py-5">
+    <div class="container">
+      <h2 class="text-center mb-5" data-aos="zoom-in">Our Partner Insurance Companies</h2>
+      <p class="text-center mb-5" data-aos="fade-up">Click on any company to explore their insurance plans</p>
+
+      <div class="row g-4">
+        <!-- Company Card 1 -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card company-card shadow-sm h-100">
+            <div class="card-img-container">
+              <img src="../Images/zurich-logo.png" class="card-img-top p-4" alt="Zurich Insurance">
+              <div class="card-overlay">
+                <span class="badge bg-primary">Global Leader</span>
+              </div>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">Zurich Insurance</h5>
+              <p class="card-text">Offering reliable plans for cars, bikes, and more with flexible pricing and global
+                trust.</p>
+              <div class="company-features">
+                <span class="feature-tag"><i class="fas fa-check-circle"></i> Global Coverage</span>
+                <span class="feature-tag"><i class="fas fa-check-circle"></i> Quick Claims</span>
+              </div>
+              <a href="plans.html?company=zurich" class="btn btn-primary mt-3">View Plans</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Company Card 2 -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card company-card shadow-sm h-100">
+            <div class="card-img-container">
+              <img src="../Images/axa-logo.png" class="card-img-top p-4" alt="AXA Insurance">
+              <div class="card-overlay">
+                <span class="badge bg-success">Best Value</span>
+              </div>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">AXA Insurance</h5>
+              <p class="card-text">Comprehensive vehicle insurance with affordable premium excellent claim support.</p>
+              <div class="company-features">
+                <span class="feature-tag"><i class="fas fa-check-circle"></i> Affordable Premiums</span>
+                <span class="feature-tag"><i class="fas fa-check-circle"></i> 24/7 Support</span>
+              </div>
+              <a href="plans.html?company=axa" class="btn btn-primary mt-3">View Plans</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Company Card 3 -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="card company-card shadow-sm h-100">
+            <div class="card-img-container">
+              <img src="../Images/jubilee-logo.png" class="card-img-top p-4" alt="Jubilee Insurance">
+              <div class="card-overlay">
+                <span class="badge bg-warning">Popular Choice</span>
+              </div>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">Jubilee Insurance</h5>
+              <p class="card-text">Trusted insurance solutions for every ride with strong after-sales service network.
+              </p>
+              <div class="company-features">
+                <span class="feature-tag"><i class="fas fa-check-circle"></i> Local Expertise</span>
+                <span class="feature-tag"><i class="fas fa-check-circle"></i> Wide Network</span>
+              </div>
+              <a href="plans.html?company=jubilee" class="btn btn-primary mt-3">View Plans</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Our Partners Section -->
+  <section class="why-partners py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5" data-aos="zoom-in">Why Choose Our Partner Companies?</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4" data-aos="fade-right" data-aos-delay="100">
+          <div class="partner-benefit">
+            <div class="benefit-icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <h4>Industry Recognition</h4>
+            <p>Our partners have received numerous awards for their exceptional service and customer satisfaction.</p>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4" data-aos="fade-left" data-aos-delay="200">
+          <div class="partner-benefit">
+            <div class="benefit-icon">
+              <i class="fas fa-history"></i>
+            </div>
+            <h4>Proven Track Record</h4>
+            <p>With decades of experience in the insurance industry, our partners have established themselves as
+              reliable providers.</p>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4" data-aos="fade-right" data-aos-delay="300">
+          <div class="partner-benefit">
+            <div class="benefit-icon">
+              <i class="fas fa-dollar-sign"></i>
+            </div>
+            <h4>Competitive Pricing</h4>
+            <p>Our partners offer competitive pricing without compromising on the quality of coverage and service.</p>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4" data-aos="fade-left" data-aos-delay="400">
+          <div class="partner-benefit">
+            <div class="benefit-icon">
+              <i class="fas fa-user-friends"></i>
+            </div>
+            <h4>Customer-Centric Approach</h4>
+            <p>All our partners prioritize customer needs and provide personalized solutions for every requirement.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section py-5">
+    <div class="container text-center">
+      <h2 class="mb-4" data-aos="fade-up">Need Help Choosing the Right Insurance?</h2>
+      <p class="mb-4" data-aos="fade-up" data-aos-delay="100">Our experts are here to help you find the perfect plan
+        from our trusted partners</p>
+      <div data-aos="fade-up" data-aos-delay="200">
+        <a href="contact.html" class="btn btn-primary btn-lg me-3">Contact Us</a>
+        <a href="plans.html" class="btn btn-outline-light btn-lg">Browse All Plans</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center pt-1 text-lg-start bg-body-tertiary text-muted" data-aos="fade-up" data-aos-duration="800">
+
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" data-aos="fade-up" data-aos-delay="100">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-crown me-2"></i>Crown Drive Insurance
+            </h6>
+            <p>
+              Crown Drive Insurance is committed to providing reliable and affordable vehicle insurance solutions. We
+              partner with leading insurance companies to offer customized plans for cars, bikes, and commercial
+              vehicles, ensuring complete peace of mind for our customers.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" data-aos="fade-up" data-aos-delay="200">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="plans.html" class="text-reset">Insurance Plans</a>
+            </p>
+            <p>
+              <a href="company.html" class="text-reset">By Company</a>
+            </p>
+            <p>
+              <a href="vehicles.css" class="text-reset">By Vehicle Type</a>
+            </p>
+            <p>
+              <a href="about.html" class="text-reset">About Us</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" data-aos="fade-up" data-aos-delay="300">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="index.html" class="text-reset">Home</a>
+            </p>
+            <p>
+              <a href="contact.html" class="text-reset">Contact Us</a>
+            </p>
+            <p>
+              <a href="faq.html" class="text-reset">FAQ</a>
+            </p>
+            <p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" data-aos="fade-up" data-aos-delay="400">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> Pakistan, Karachi, Asia</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              crowndriveinsurance@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +92 3121 293097</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div class="d-flex justify-content-center">
+        <a href="https://www.facebook.com/" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://x.com/?lang=en" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.google.com" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="https://www.instagram.com" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/login" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2025 Copyright:
+      <a class="text-reset fw-bold" href="index.html">CrownDriveInsurance.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="btn btn-primary back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap JS + jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script>
+    // Preloader
+    window.addEventListener('load', () => {
+      const preloader = document.getElementById('preloader');
+      if (preloader) {
+        setTimeout(() => {
+          preloader.style.opacity = '0';
+          setTimeout(() => {
+            preloader.style.display = 'none';
+          }, 500);
+        }, 1000);
+      }
+    });
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Back to top button
+    const backToTopButton = document.getElementById('backToTop');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backToTopButton.classList.add('show');
+      } else {
+        backToTopButton.classList.remove('show');
+      }
+    });
+
+    backToTopButton.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+  </script>
+
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+</body>
+
+</html>

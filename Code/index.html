@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Crown Drive Insurance</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <link rel="icon" type="image/png" href="../Images/favicon-96x96.png" sizes="96x96" />
+</head>
+
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" data-aos="fade-down">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" data-aos="zoom-in" data-aos-delay="100">
+        <img src="../Images/logo.png" alt="Crown Drive Logo" width="40" class="me-2">
+        CROWN DRIVE INSURANCE
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html" data-aos="fade-down"
+              data-aos-delay="200">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="plans.html" data-aos="fade-down" data-aos-delay="300">Plans</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="company.html" data-aos="fade-down"
+              data-aos-delay="400">Companies</a></li>
+          <li class="nav-item"><a class="nav-link" href="vehicles.html" data-aos="fade-down"
+              data-aos-delay="500">Vehicles</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html" data-aos="fade-down" data-aos-delay="600">About</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contact.html" data-aos="fade-down"
+              data-aos-delay="700">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html" data-aos="fade-down" data-aos-delay="800">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section text-dark text-center p-5" data-aos="fade-down">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="display-4" data-aos="zoom-in" data-aos-delay="200">Insurance for Every Ride</h1>
+        <p class="lead" data-aos="fade-up" data-aos-delay="400">Crown Drive Insurance provides trusted insurance
+          coverage for Cars, Bikes, and more – in
+          partnership with leading insurance companies.</p>
+        <div class="text-center" data-aos="fade-up" data-aos-delay="600">
+          <a href="plans.html" class="btn btn-primary btn-lg mt-3">View Plans</a>
+          <a href="contact.html" class="btn btn-outline-light btn-lg mt-3 ms-2">Get Quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats-section py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="stat-item">
+            <h2 class="stat-number">5000+</h2>
+            <p>Happy Customers</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="stat-item">
+            <h2 class="stat-number">15+</h2>
+            <p>Insurance Partners</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="stat-item">
+            <h2 class="stat-number">50+</h2>
+            <p>Insurance Plans</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="stat-item">
+            <h2 class="stat-number">24/7</h2>
+            <p>Customer Support</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Plans -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4" data-aos="zoom-in">Featured Insurance Plans</h2>
+      <p class="text-center mb-5" data-aos="fade-up">Choose from our wide range of insurance plans tailored to your
+        needs</p>
+      <div class="row g-4">
+        <!-- Plan Card 1 -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card h-100 shadow-sm plan-card">
+            <div class="card-img-container">
+              <img src="../Images/car.jpg" class="card-img-top" alt="Car Insurance">
+              <div class="card-overlay">
+                <span class="badge bg-primary">Popular</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Comprehensive Car Cover</h5>
+              <p class="card-text">Full coverage plan for your four-wheeler with accidental and theft protection.</p>
+              <div class="price-tag">
+                <p><strong>Starting at PKR 20,000</strong></p>
+              </div>
+              <a href="plans.html" class="btn btn-primary btn-sm">View Details</a>
+            </div>
+          </div>
+        </div>
+        <!-- Plan Card 2 -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card h-100 shadow-sm plan-card">
+            <div class="card-img-container">
+              <img src="../Images/bike.jpg" class="card-img-top" alt="Bike Insurance">
+              <div class="card-overlay">
+                <span class="badge bg-success">Best Value</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Two Wheeler Protection</h5>
+              <p class="card-text">Affordable plan for motorbikes with third-party liability coverage.</p>
+              <div class="price-tag">
+                <p><strong>Starting at PKR 5,000</strong></p>
+              </div>
+              <a href="plans.html" class="btn btn-primary btn-sm">View Details</a>
+            </div>
+          </div>
+        </div>
+        <!-- Plan Card 3 -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="card h-100 shadow-sm plan-card">
+            <div class="card-img-container">
+              <img src="../Images/van.jpg" class="card-img-top" alt="Commercial Insurance">
+              <div class="card-overlay">
+                <span class="badge bg-warning">Premium</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Commercial Vehicle Plan</h5>
+              <p class="card-text">Best suited for business vehicles with comprehensive protection options.</p>
+              <div class="price-tag">
+                <p><strong>Starting at PKR 30,000</strong></p>
+              </div>
+              <a href="plans.html" class="btn btn-primary btn-sm">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section id="explore-category">
+    <div class="container text-center">
+      <h2 class="section-title" data-aos="fade-up">Explore by Category</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Find the perfect insurance plan based on your
+        preferences</p>
+      <div class="row g-4">
+        <div class="col-md-6" data-aos="fade-right" data-aos-delay="200">
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-building fa-3x"></i>
+            </div>
+            <h5>By Company</h5>
+            <p>See insurance plans offered by Zurich, Jubilee, Adamjee and more.</p>
+            <a href="company.html" class="btn btn-sm">Browse Companies</a>
+          </div>
+        </div>
+        <div class="col-md-6" data-aos="fade-left" data-aos-delay="300">
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-car fa-3x"></i>
+            </div>
+            <h5>By Vehicle Type</h5>
+            <p>Find plans for Four Wheelers, Two Wheelers, and Commercial Vehicles.</p>
+            <a href="vehicles.html" class="btn btn-sm">Browse Vehicles</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section py-5">
+    <div class="container">
+      <h2 class="text-center mb-5" data-aos="fade-up">What Our Customers Say</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"Crown Drive Insurance made the process so simple and affordable. I got comprehensive coverage for my
+                car at a great price!"</p>
+            </div>
+            <div class="testimonial-author">
+              <img src="https://picsum.photos/seed/person1/50/50.jpg" alt="Customer" class="author-img">
+              <div class="author-info">
+                <h6>Ahmed Hassan</h6>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"Excellent customer service and quick claim processing. I highly recommend Crown Drive to anyone
+                looking for reliable insurance."</p>
+            </div>
+            <div class="testimonial-author">
+              <img src="https://picsum.photos/seed/person2/50/50.jpg" alt="Customer" class="author-img">
+              <div class="author-info">
+                <h6>Sara Khan</h6>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"I've been with Crown Drive for 3 years now. Their plans are comprehensive and the support team is
+                always helpful."</p>
+            </div>
+            <div class="testimonial-author">
+              <img src="https://picsum.photos/seed/person3/50/50.jpg" alt="Customer" class="author-img">
+              <div class="author-info">
+                <h6>Muhammad Ali</h6>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="py-5 bg-light" id="why-choose-us">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold" data-aos="fade-up">Why Choose Us?</h2>
+        <p data-aos="fade-up" data-aos-delay="100">We provide reliable, affordable, and customer-focused insurance
+          solutions.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
+          <div class="card h-100 text-center shadow-sm border-0 feature-card">
+            <div class="card-body">
+              <div class="feature-icon">
+                <i class="fas fa-shield-alt fa-3x"></i>
+              </div>
+              <h5 class="card-title fw-bold">Trusted Protection</h5>
+              <p class="card-text">Partnered with top insurance providers to give you the most reliable coverage.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="card h-100 text-center shadow-sm border-0 feature-card">
+            <div class="card-body">
+              <div class="feature-icon">
+                <i class="fas fa-hand-holding-usd fa-3x"></i>
+              </div>
+              <h5 class="card-title fw-bold">Affordable Plans</h5>
+              <p class="card-text">Customized insurance solutions that fit your budget without compromise.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4" data-aos="fade-right" data-aos-delay="400">
+          <div class="card h-100 text-center shadow-sm border-0 feature-card">
+            <div class="card-body">
+              <div class="feature-icon">
+                <i class="fas fa-headset fa-3x"></i>
+              </div>
+              <h5 class="card-title fw-bold">24/7 Support</h5>
+              <p class="card-text">Our support team is always available to assist you whenever you need us.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section py-5">
+    <div class="container text-center">
+      <h2 class="mb-4" data-aos="fade-up">Get Your Insurance Quote Today</h2>
+      <p class="mb-4" data-aos="fade-up" data-aos-delay="100">Join thousands of satisfied customers who trust Crown
+        Drive Insurance</p>
+      <div data-aos="fade-up" data-aos-delay="200">
+        <a href="contact.html" class="btn btn-primary btn-lg me-3">Get Quote</a>
+        <a href="about.html" class="btn btn-outline-light btn-lg">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" data-aos="fade-up" data-aos-delay="100">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-crown me-2"></i>Crown Drive Insurance
+            </h6>
+            <p>
+              Crown Drive Insurance is committed to providing reliable and affordable vehicle insurance solutions. We
+              partner with leading insurance companies to offer customized plans for cars, bikes, and commercial
+              vehicles, ensuring complete peace of mind for our customers.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" data-aos="fade-up" data-aos-delay="200">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="plans.html" class="text-reset">Insurance Plans</a>
+            </p>
+            <p>
+              <a href="company.html" class="text-reset">By Company</a>
+            </p>
+            <p>
+              <a href="vehicles.css" class="text-reset">By Vehicle Type</a>
+            </p>
+            <p>
+              <a href="about.html" class="text-reset">About Us</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" data-aos="fade-up" data-aos-delay="300">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="index.html" class="text-reset">Home</a>
+            </p>
+            <p>
+              <a href="contact.html" class="text-reset">Contact Us</a>
+            </p>
+            <p>
+              <a href="faq.html" class="text-reset">FAQ</a>
+            </p>
+            <p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" data-aos="fade-up" data-aos-delay="400">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> Pakistan, Karachi, Asia</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              crowndriveinsurance@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +92 3121 293097</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div class="d-flex justify-content-center">
+        <a href="https://www.facebook.com/" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://x.com/?lang=en" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.google.com" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="https://www.instagram.com" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/login" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2025 Copyright:
+      <a class="text-reset fw-bold" href="index.html">CrownDriveInsurance.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="btn btn-primary back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Popup Modal -->
+  <div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-top-centered">
+      <div class="modal-content bg-dark text-white">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="welcomeModalLabel">
+            <img src="../Images/favicon-96x96.png" alt="" class="logo-img mb-3"> Welcome to Crown Drive Insurance
+          </h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <p>We provide trusted insurance solutions for Cars, Bikes, and Commercial Vehicles.</p>
+          <div class="modal-offer">
+            <h4>Special Offer!</h4>
+            <p>Get 10% off on your first insurance plan</p>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Claim Offer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Bootstrap JS + jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="main.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+
+
+</body>
+
+</html>
